@@ -17,7 +17,8 @@ This program works by taking in a json file as input and converting it into a 2d
 By default, the file input.json is initialized from 'resources'. When selecting an item, a json file can be entered instead to reinitialize the vending machine. If the file isnt found, or if the json file is improperly formatted, the initialization will fail.
 
 By default this program can handle up to 25 rows and up to 9 columns, for a maximum of 255 total items. This limit was put in place to keep input to one letter and one number. The average vending machine holds around 64 items, so this implementation will work for most vending machines.
-This implementation is based on interacting with a vending machine display, so if a product is out of stock it will notify the user and prompt them for another selection. 
+
+This implementation is based on interacting with a vending machine display, so if a product is out of stock it will notify the user and prompt them for another selection. In addition, there is an emphasis on handling wrong user input to avoid the program crashing due to null pointer or input mismatch exceptions.
 
 When a valid item is selected, the user will input a number for payment, and when this amount is sufficient a message will print with their change.
 
