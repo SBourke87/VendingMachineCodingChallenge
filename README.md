@@ -6,6 +6,10 @@ An implementation of a vending machine written in java.
 
 *org.json.simple
 
+### How to Run
+
+The program can either be run through the command line via java -jar VendingMachineProject.jar(json file) or imported into an IDE and run there. If it is run directly through the command line it MUST take a path to a json file as an argument.
+
 ### Implementation
 
 This program works by taking in a json file as input and converting it into a 2d array of vending machine items.
