@@ -4,6 +4,7 @@ An implementation of a vending machine written in java.
 
 ### Dependencies
 
+*java with ant
 *org.json.simple
 
 ### How to Run
