@@ -1,7 +1,3 @@
-# Project Title
-
-Simple overview of use/purpose.
-
 ## Vending Machine Coding Challenge
 
 An implementation of a vending machine written in java.
